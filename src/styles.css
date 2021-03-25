@@ -43,7 +43,7 @@ li {
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 60px;
   margin: 0;
 }
 
@@ -88,7 +88,7 @@ p {
 }
 
 .button:hover {
-  background-color: #ef744b;
+  background-color: #5a79df;
 }
 
 .button:active {
@@ -119,7 +119,7 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 80px;
+  padding: 40px;
 }
 
 .headshot {
@@ -165,7 +165,8 @@ hr {
 
 .project-link {
   text-decoration: none;
-  color: #ef744b;
+  color: #5a79df;
+  /* color: #ef744b; */
 }
 
 a {
