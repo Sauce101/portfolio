@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
 
 section {
@@ -33,17 +34,12 @@ ul {
   font-size: 30px;
 }
 
-/* responsive */
-ul.show {
-  display: block;
-}
-
 li {
   text-decoration: none;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 80px;
   margin: 0;
 }
 
@@ -119,12 +115,13 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 40px;
+  padding: 80px;
 }
 
 .headshot {
   width: 300px;
   border-radius: 150px;
+  margin-left: 80px;
 }
 
 .headshot-container {
@@ -134,7 +131,7 @@ p {
 
 .project-card {
   width: 300px;
-  height: 400px;
+  height: 500px;
   box-shadow: 5px 5px 20px grey;
   margin: 10px;
 }
@@ -198,6 +195,10 @@ a {
     display: none;
     background-color: #2b2c38;
     margin: 0px;
+  }
+
+  ul.show {
+    display: block;
   }
 
   nav {
