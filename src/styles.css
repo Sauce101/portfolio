@@ -56,6 +56,8 @@ p {
 .subtext {
   font-size: 15px;
   font-weight: 300;
+  /* padding-left: 10px; */
+  padding-inline: 25px;
 }
 
 .hero-area {
@@ -134,6 +136,7 @@ p {
   height: 500px;
   box-shadow: 5px 5px 20px grey;
   margin: 10px;
+  /* added */
 }
 
 .project-container {
