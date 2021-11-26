@@ -70,7 +70,8 @@ p {
 
 .hero-text {
   margin-left: 80px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
+  margin-bottom: 160px;
 }
 
 .button {
@@ -106,6 +107,13 @@ p {
   height: 80px;
   margin: 30px;
 }
+
+@media (min-width: 1000px) {
+  .mstar {
+  display: none;
+}
+}
+
 
 .sub-section {
   display: flex;
@@ -182,6 +190,8 @@ a {
   outline: 0;
 }
 
+
+
 /* responsive */
 @media only screen and (max-width: 1000px) {
   .hamburger {
@@ -213,6 +223,11 @@ a {
   .logo {
     display: none;
   }
+
+  .mstar {
+  height: 80px;
+  margin: 10px 0;
+  }
 }
 
 /* animateted text for my name h1 */
@@ -236,6 +251,7 @@ a {
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
+    animation-delay: 2s;
 }
 @-moz-keyframes spin { 
     100% { -moz-transform: rotate(360deg); } 
