@@ -1,108 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<link rel="stylesheet" type="text/css" href="src/styles.css">
-	<link rel="icon" type="image/x-icon" href="src/favicon/favicon.ico" />
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/c61e138607.js" crossorigin="anonymous"></script>
-	<title>Portfolio</title>
-  <meta charset="UTF-8" />
-	<meta name="theme-color" content="#1c1d25" />
-	<meta name="author" content="Michael Saucedo">
-	<meta name="keywords" content="portfolio">
-</head>
-<body>
-	<section class="hero">
-		<nav>
-			<img class="logo ninja" src="src/images/ninja-star.png" alt="star logo">
-			<ul id="nav-list">
-				<li><a href="#about-me">About me</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact-me">Contact me</a></li>
-			</ul>
-			<!-- <button class="hamburger" id="hamburger">
-				<i class="fas fa-bars"></i>
-			</button> -->
-			<div id="nav-icon1">
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
-		</nav>
-		<div class="hero-area">
-			<div class="hero-text">
-				<h1 class='animatedText'>Michael Saucedo</h1>
-				<p>Web Developer</p>
-				<div class="button"><a href="#about-me">About me</a></div>
-			</div>
-			<div class="socials">
-				<div>
-					<a class="social" href="https://www.youtube.com/channel/UCwkuOEMVI_xvN1TTZyoEY7g">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-					</a>
-				</div>
-				<div>
-					<a class="social" href="https://github.com/Sauce101">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-					</a>
-				</div>
-				<div>
-					<a class="social" href="https://www.linkedin.com/in/michael-saucedo-518a3a20a?trk=people-guest_people_search-card">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
-					</a>
-				</div>
-			</div>
-		</div>     
-	</section>
-	<section class="sub-section" id="about-me">
-		<div class="information">
-			<h2>About Me</h2>
-			<p>Having discovered a passion for coding and problem solving utilizing various programming languages and techniques.</p>
-		</div>
-		<div class="headshot-container">
-			<img class="headshot" src="src/images/me01.jpg" alt="Michael Saucedo headshot" />
-		</div> 
-	</section>
+  <head>
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <link rel="icon" type="image/x-icon" href="src/favicon/favicon.ico" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#1c1d25" />
+    <meta name="author" content="Michael Saucedo" />
+    <meta name="keywords" content="portfolio" />
+  </head>
+  <body>
+    <section class="hero">
+      <nav>
+        <img
+          class="logo ninja"
+          src="src/images/ninja-star.png"
+          alt="star logo"
+        />
+        <ul id="nav-list">
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact-me">Contact me</a></li>
+        </ul>
+        <div id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <div class="hero-area">
+        <div class="hero-text">
+          <h1 class="animatedText">Michael Saucedo</h1>
+          <p>Web Developer</p>
+          <div class="button"><a href="#about-me">About me</a></div>
+        </div>
+        <div class="socials">
+          <!-- <div>
+            <a
+              class="social"
+              href="https://www.youtube.com/channel/UCwkuOEMVI_xvN1TTZyoEY7g"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#ffffff"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                />
+              </svg>
+            </a>
+          </div> -->
+          <div>
+            <a
+              class="social"
+              href="https://www.linkedin.com/in/michael-saucedo-518a3a20a?trk=people-guest_people_search-card"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#ffffff"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div>
+            <a class="social" href="https://github.com/Sauce101">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#ffffff"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div>
+            <a
+              class="social"
+              href="https://credentials.edx.org/credentials/5f5a0fbf999b44a0b656cd6470e3c12a/"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#ffffff"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 22.246c-.428 0-1.099-.709-1.688-2.276-.579.295-1.082.527-1.571.738.767 1.992 1.858 3.292 3.259 3.292 1.44 0 2.552-1.371 3.322-3.452-.485-.201-.997-.43-1.581-.719-.599 1.667-1.298 2.417-1.741 2.417zm-4.709-2.216c-3.099 1.139-6.29 1.168-6.29-1.644 0-.939.435-2.257 1.796-4.082.581-.779 1.254-1.545 1.937-2.248 1.531-1.555 3.256-3.05 5.505-4.599-1.083-.596-2.264-1.167-3.416-1.59-1.18-.435-2.219-.676-3.015-.676-.508 0-.886.107-1.009.288-.133.192-.138.784.445 1.843l.21-.013c1.047 0 1.898.866 1.898 1.933 0 1.067-.851 1.931-1.898 1.931-1.048 0-1.897-.864-1.897-1.931 0-.346.089-.67.245-.951-.59-1.04-.802-1.86-.802-2.503 0-1.515 1.154-2.354 2.808-2.354 2.514 0 5.9 1.662 8.082 2.946 2.214-1.363 5.717-3.159 8.304-3.159 1.893 0 2.807 1.054 2.807 2.395 0 .939-.436 2.256-1.796 4.08-3.084 4.137-9.216 8.606-13.914 10.334zm14.917-4.305c.142-.27.22-.576.22-.902 0-1.068-.849-1.933-1.897-1.933s-1.897.865-1.897 1.933c0 1.066.849 1.93 1.897 1.93l.258-.017c.552 1.024.544 1.597.415 1.787-.124.181-.501.287-1.01.287-1.602 0-3.833-.944-5.27-1.657-.48.342-1.075.748-1.657 1.119 1.925 1.036 4.757 2.295 6.927 2.295 1.64 0 2.808-.83 2.808-2.354 0-.638-.211-1.455-.794-2.488zm-12.834.119h-.001l-.013-.01c-1.144-.81-2.272-1.7-3.317-2.631-2.817 2.877-3.611 4.963-3.238 5.524.126.189.492.299 1.003.299 2.35 0 6.08-2.018 8.287-3.465 2.709-1.775 5.8-4.328 7.736-6.926 1.506-2.018 1.552-3.081 1.366-3.361-.126-.19-.491-.298-1.003-.298-1.952 0-4.924 1.459-6.636 2.447 1.263.836 2.443 1.719 3.52 2.616-.408.415-.834.819-1.27 1.211-1.196-.982-2.524-1.946-3.901-2.81-1.581 1.036-3.173 2.254-4.603 3.552 1.075.951 2.356 1.949 3.721 2.873-.522.331-1.049.647-1.651.979zm2.626-5.844c1.104 0 2 .896 2 2s-.896 2-2 2-2-.896-2-2 .896-2 2-2zm-1.739-5.828c-.58-.285-1.095-.518-1.581-.718.77-2.082 1.882-3.454 3.32-3.454 1.403 0 2.495 1.302 3.261 3.292-.49.212-.996.447-1.572.739-.587-1.567-1.258-2.275-1.689-2.275-.441 0-1.139.75-1.739 2.416z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sub-section" id="about-me">
+      <div class="information">
+        <h2>About Me</h2>
+        <p>
+          Freelance Web Developer having discovered a passion for coding and
+          problem solving utilizing various programming languages and
+          techniques. Completing an online program offered by HarvardX.
+        </p>
+      </div>
+      <div class="headshot-container">
+        <img
+          class="headshot"
+          src="src/images/me01.jpg"
+          alt="Michael Saucedo headshot"
+        />
+      </div>
+    </section>
 
-	<section class="sub-section-alternative" id="projects">
-		<h2>Projects</h2>
-		<div class="project-container">
-			<div class="project-card">
-				<img class="project-image" src="src/images/projpic06.jpg" alt="Crypto flo chart">
-				<h3>Crypto Check</h3>
-				<p class="subtext">Django app that checks the stats and positions of cryptocurrency in real time.</p>
-				<hr>
-				<p class="subtext"><a class="project-link" href="https://github.com/Sauce101/crypto-check">View code</a></p>
-			</div>
-			<div class="project-card">
-				<img class="project-image" src="src/images/projpic04.jpg" alt="Tesla automobile">
-				<h3>Tesla Clone 2</h3>
-				<p class="subtext">My second Tesla clone site, this time in React with styled components.</p>
-				<hr>
-				<p class="subtext"><a class="project-link" href="https://teslatwo.netlify.app/">View site</a></p>
-			</div>
-			<div class="project-card">
-				<img class="project-image" src="src/images/sn1.png" alt="Flack program image">
-				<h3>Swapi Next</h3>
-				<p class="subtext">This is Swapi Next, a pet program written in Next.js and a Star Wars API</p>
-				<hr>
-				<p class="subtext"><a class="project-link" href="https://swapi-next.vercel.app/">View site</a></p>
-			</div>
-			<div class="project-card">
-				<img class="project-image" src="src/images/dsportfolio.png" alt="Wiki program pic">
-				<h3>DS-1</h3>
-				<p class="subtext">Star Wars themed React site using styled components instead of CSS.</p>
-				<hr>
-				<p class="subtext"><a class="project-link" href="https://ds1.netlify.app/">View site</a></p>
-			</div>
-		</div>
-		
-	</section>
-	<footer id="contact-me">
-		<h2>Contact me</h2>
-		<p>michaelsaucedo443@gmail.com</p>
-	</footer>
-	<script src="src/app.js"></script>
-</body>
+    <section class="sub-section-alternative" id="projects">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/projpic06.jpg"
+            alt="Crypto flo chart"
+          />
+          <h3>Crypto Check</h3>
+          <p class="subtext">
+            Django app that checks the stats and positions of cryptocurrency in
+            real time. Added my own styling to the Markdown file.
+          </p>
+          <hr />
+          <p class="subtext">
+            <a
+              class="project-link"
+              href="https://github.com/Sauce101/crypto-check"
+              >View code</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/projpic04.jpg"
+            alt="Tesla automobile"
+          />
+          <h3>Tesla Clone 2</h3>
+          <p class="subtext">
+            My second Tesla clone site, this time in React with styled
+            components and updated npm packages.
+          </p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://teslatwo.netlify.app/"
+              >View site</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/sn1.png"
+            alt="Flack program image"
+          />
+          <h3>Swapi Next</h3>
+          <p class="subtext">
+            This is Swapi Next, a pet program written in Next.js and an online
+            Star Wars API to create a Wiki type interface.
+          </p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://swapi-next.vercel.app/"
+              >View site</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/dsportfolio.png"
+            alt="Wiki program pic"
+          />
+          <h3>DS-1</h3>
+          <p class="subtext">
+            Star Wars themed React site using styled components, video loop and
+            smooth-scroll. Theme based on video.
+          </p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://ds1.netlify.app/"
+              >View site</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer id="contact-me">
+      <h2>Contact me</h2>
+      <p>michaelsaucedo443@gmail.com</p>
+    </footer>
+    <script src="src/app.js"></script>
+  </body>
 </html>
