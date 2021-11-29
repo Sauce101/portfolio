@@ -15,6 +15,12 @@ section {
   font-size: 40px;
 }
 
+#about-me,
+#projects h2,
+h3 {
+  color: #1c1d25;
+}
+
 footer {
   background-color: black;
   color: white;
