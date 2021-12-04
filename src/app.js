@@ -8,6 +8,7 @@ toggleButton = () => {
 };
 
 hamburgerButton.addEventListener("click", toggleButton);
+navlist.addEventListener("click", toggleButton);
 
 // smooth-scroll
 const scroll = new SmoothScroll('#nav-list a[href*="#"]', {
