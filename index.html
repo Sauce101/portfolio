@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Nunito:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
     <title>Portfolio</title>
@@ -113,103 +113,106 @@
         </div>
       </div>
     </section>
-    <section class="sub-section" id="about-me">
-      <div class="information">
-        <h2>About Me</h2>
-        <p>
-          Freelance Web Developer having discovered a passion for coding and
-          problem solving utilizing various programming languages and
-          techniques.
-        </p>
-      </div>
-      <div class="headshot-container">
-        <img
-          class="headshot"
-          src="src/images/me01.jpg"
-          alt="Michael Saucedo headshot"
-        />
-      </div>
-    </section>
+    <!-- Parallax -->
+    <div class="parallax">
+      <section class="sub-section" id="about-me">
+        <div class="information">
+          <h2>About Me</h2>
+          <p>
+            Freelance Web Developer having discovered a passion for coding and
+            problem solving utilizing various programming languages and
+            techniques.
+          </p>
+        </div>
+        <div class="headshot-container">
+          <img
+            class="headshot"
+            src="src/images/me01.jpg"
+            alt="Michael Saucedo headshot"
+          />
+        </div>
+      </section>
 
-    <section class="sub-section-alternative" id="projects">
-      <h2>Projects</h2>
-      <div class="project-container">
-        <div class="project-card">
-          <img
-            class="project-image"
-            src="src/images/projpic06.jpg"
-            alt="Crypto flo chart"
-          />
-          <h3>Crypto Check</h3>
-          <p class="subtext">
-            Django app that checks the stats and positions of cryptocurrency in
-            real time. Added my own styling to the Markdown file.
-          </p>
-          <hr />
-          <p class="subtext">
-            <a
-              class="project-link"
-              href="https://github.com/Sauce101/crypto-check"
-              >View code</a
-            >
-          </p>
+      <section class="sub-section-alternative" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <div class="project-card">
+            <img
+              class="project-image"
+              src="src/images/projpic06.jpg"
+              alt="Crypto flo chart"
+            />
+            <h3>Crypto Check</h3>
+            <p class="subtext">
+              Django app that checks the stats and positions of cryptocurrency
+              in real time. Added my own styling to the Markdown file.
+            </p>
+            <hr />
+            <p class="subtext">
+              <a
+                class="project-link"
+                href="https://github.com/Sauce101/crypto-check"
+                >View code</a
+              >
+            </p>
+          </div>
+          <div class="project-card">
+            <img
+              class="project-image"
+              src="src/images/projpic04.jpg"
+              alt="Tesla automobile"
+            />
+            <h3>Tesla Clone 2</h3>
+            <p class="subtext">
+              My second Tesla clone site, this time in React with styled
+              components and updated npm packages.
+            </p>
+            <hr />
+            <p class="subtext">
+              <a class="project-link" href="https://teslatwo.netlify.app/"
+                >View site</a
+              >
+            </p>
+          </div>
+          <div class="project-card">
+            <img
+              class="project-image"
+              src="src/images/sn1.png"
+              alt="Flack program image"
+            />
+            <h3>Swapi Next</h3>
+            <p class="subtext">
+              This is Swapi Next, a pet program written in Next.js and an online
+              Star Wars API to create a Wiki type interface.
+            </p>
+            <hr />
+            <p class="subtext">
+              <a class="project-link" href="https://swapi-next.vercel.app/"
+                >View site</a
+              >
+            </p>
+          </div>
+          <div class="project-card">
+            <img
+              class="project-image"
+              src="src/images/dsportfolio.png"
+              alt="Wiki program pic"
+            />
+            <h3>DS-1</h3>
+            <p class="subtext">
+              Star Wars themed React site using styled components, video loop
+              and smooth-scroll. Theme based on video.
+            </p>
+            <hr />
+            <p class="subtext">
+              <a class="project-link" href="https://ds1.netlify.app/"
+                >View site</a
+              >
+            </p>
+          </div>
         </div>
-        <div class="project-card">
-          <img
-            class="project-image"
-            src="src/images/projpic04.jpg"
-            alt="Tesla automobile"
-          />
-          <h3>Tesla Clone 2</h3>
-          <p class="subtext">
-            My second Tesla clone site, this time in React with styled
-            components and updated npm packages.
-          </p>
-          <hr />
-          <p class="subtext">
-            <a class="project-link" href="https://teslatwo.netlify.app/"
-              >View site</a
-            >
-          </p>
-        </div>
-        <div class="project-card">
-          <img
-            class="project-image"
-            src="src/images/sn1.png"
-            alt="Flack program image"
-          />
-          <h3>Swapi Next</h3>
-          <p class="subtext">
-            This is Swapi Next, a pet program written in Next.js and an online
-            Star Wars API to create a Wiki type interface.
-          </p>
-          <hr />
-          <p class="subtext">
-            <a class="project-link" href="https://swapi-next.vercel.app/"
-              >View site</a
-            >
-          </p>
-        </div>
-        <div class="project-card">
-          <img
-            class="project-image"
-            src="src/images/dsportfolio.png"
-            alt="Wiki program pic"
-          />
-          <h3>DS-1</h3>
-          <p class="subtext">
-            Star Wars themed React site using styled components, video loop and
-            smooth-scroll. Theme based on video.
-          </p>
-          <hr />
-          <p class="subtext">
-            <a class="project-link" href="https://ds1.netlify.app/"
-              >View site</a
-            >
-          </p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <footer id="contact-me">
       <h2>Contact me</h2>
       <p>michaelsaucedo443@gmail.com</p>

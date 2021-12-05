@@ -4,9 +4,9 @@ body {
   margin: 0;
 }
 
-section {
+/* section {
   background-color: #f0f0f0;
-}
+} */
 
 .hero {
   background-color: #1c1d25;
@@ -19,6 +19,21 @@ section {
 #projects h2,
 h3 {
   color: #1c1d25;
+}
+
+/* parallax */
+.parallax {
+  /* The image used */
+  background-image: url("/src/images/wboats.jpg");
+
+  /* Full height */
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
@@ -46,9 +61,9 @@ li {
 }
 
 h1 {
-  /* 90px */
   font-size: 80px;
   margin: 0;
+  font-family: "Alex Brush", cursive;
 }
 
 h2 {
@@ -85,7 +100,7 @@ p {
   width: 200px;
   height: 55px;
   border-radius: 30px;
-  /* background-color: coral; */
+  /* background-color: imperial red; */
   background-color: #ed2939;
   text-align: center;
   font-size: 30px;
@@ -96,7 +111,7 @@ p {
   animation-name: slidein;
 }
 
-/* button glow */
+/* button slide animate */
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -160,6 +175,8 @@ p {
   height: 500px;
   box-shadow: 5px 5px 20px rgb(197, 195, 195);
   margin: 10px;
+  background-color: #eeeeee;
+  border-radius: 15px;
 }
 
 .project-container {
@@ -297,22 +314,6 @@ a {
     display: none;
   }
 }
-
-/* animateted text for my name h1 */
-/* .animatedText {
-  animation: fadeAndScale 0.8s cubic-bezier(0, 1.07, 0.72, 1.42);
-  transform-origin: center bottom;
-}
-@keyframes fadeAndScale {
-  from {
-    opacity: 0;
-    transform: scale3d(0.75, 0.75, 1);
-  }
-  to {
-    opacity: 1;
-    transform: scale3d(1, 1, 1);
-  }
-} */
 
 /* animated ninja star */
 .ninja {
