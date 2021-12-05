@@ -23,10 +23,10 @@ h3 {
 /* parallax */
 .parallax {
   /* The image used */
-  background-image: url("./images/cloudblue.avif");
+  background-image: url("./images/wboats.jpg");
 
   /* Full height */
-  /* height: 100%; */
+  width: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
