@@ -26,7 +26,7 @@ h3 {
   background-image: url("./images/wboats.jpg");
 
   /* Full height */
-  width: 100%;
+  height: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
