@@ -23,7 +23,7 @@ h3 {
 /* parallax */
 .parallax {
   /* The image used */
-  background-image: url("/src/images/cloudblue.avif");
+  background-image: url("./images/cloudblue.avif");
 
   /* Full height */
   /* height: 100%; */
